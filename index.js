@@ -136,7 +136,7 @@ async function scrapeInfiniteScrollItems(
             Date : date[i]
         });
     }
-  //console.log(readingTime);
+
    console.log(title);
 
     // Save extracted items to a file.
