@@ -41,8 +41,6 @@ function extractUsername() {
     const username = document.querySelectorAll('div[class = "postMetaInline postMetaInline-authorLockup ui-captionStrong u-flex1 u-noWrapWithEllipsis"] > a');
     const items = [];
 
-    console.log("king of kings (robin jain)");
-
     for (let element of username) {
         items.push(element.innerText);
     }
